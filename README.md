@@ -43,4 +43,13 @@ POST http://localhost:8090/pocopay/v1/payment/
 > Get Payment History from an Account :
 GET http://localhost:8090/pocopay/v1/account/{id}/transaction
 
+# Configuration
+> Application 
+application.properties
+
+> Database Connectivity 
+jdbc.properties
+
+> Logger Configuration
+logback.xml
 

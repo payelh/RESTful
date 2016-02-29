@@ -54,6 +54,33 @@ POST http://localhost:8090/pocopay/v1/payment/
 > Get Payment History from an Account :
 GET http://localhost:8090/pocopay/v1/account/{id}/transaction
 
+Return 200 OK & Payment History in JSON Format
+[
+  {
+    "paymentID": 1,
+    "srcAccountID": 1,
+    "destAccountID": 2,
+    "paymentAmount": 100,
+    "paymentReference": "Test Payment",
+    "transactionTime": {
+      "dayOfMonth": 1,
+      "month": "JANUARY",
+      "monthValue": 1,
+      "year": 2016,
+      "dayOfWeek": "FRIDAY",
+      "hour": 1,
+      "minute": 1,
+      "nano": 0,
+      "second": 1,
+      "dayOfYear": 1,
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    }
+  }
+]
+
 # Configuration
 > Application 
 

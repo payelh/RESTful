@@ -15,6 +15,9 @@ Test:	 gradlew test
 # TestResult
 Get test result in PocopayMini/build/reports/tests/index.html
 
+# Detail Explanation
+https://github.com/payelh/RESTful/blob/master/Pocopay.docx
+
 # Request
 > Create Account :
 

@@ -45,11 +45,14 @@ GET http://localhost:8090/pocopay/v1/account/{id}/transaction
 
 # Configuration
 > Application 
+
 application.properties
 
 > Database Connectivity 
+
 jdbc.properties
 
 > Logger Configuration
+
 logback.xml
 

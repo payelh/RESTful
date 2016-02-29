@@ -25,9 +25,15 @@ POST http://localhost:8090/pocopay/v1/account/
     "dateOfBirth":"01-01-2010"
 }
 
+Return 200 OK & New account URI in HTTP heder < http://localhost:8090/pocopay/v1/account/3 >
+
 > Get Account :
 
 GET http://localhost:8090/pocopay/v1/account/1/
+
+Return 200 OK & Account Data in JSON Format
+
+
 
 
 > Create Payment :
@@ -36,8 +42,8 @@ POST http://localhost:8090/pocopay/v1/payment/
 {
   "srcAccountID":"1",
   "destAccountID":"2",
-	"paymentAmount":"100",
-	"paymentReference":"Ref 01"
+  "paymentAmount":"100",
+  "paymentReference":"Ref 01"
 }
 
 > Get Payment History from an Account :

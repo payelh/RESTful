@@ -55,6 +55,8 @@ POST http://localhost:8090/pocopay/v1/payment/
 GET http://localhost:8090/pocopay/v1/account/{id}/transaction
 
 Return 200 OK & Payment History in JSON Format
+
+
 [
   {
     "paymentID": 1,

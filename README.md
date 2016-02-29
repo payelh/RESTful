@@ -33,7 +33,12 @@ GET http://localhost:8090/pocopay/v1/account/1/
 
 Return 200 OK & Account Data in JSON Format
 
-
+{
+  "accountID": 1,
+  "ownerName": "PAYEL",
+  "dateOfBirth": "25-11-1982",
+  "accountBalance": 500
+}
 
 
 > Create Payment :

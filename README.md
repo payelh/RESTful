@@ -28,7 +28,7 @@ POST http://localhost:8090/pocopay/v1/account/
     "dateOfBirth":"01-01-2010"
 }
 
-Return 200 OK & New account URI in HTTP heder < http://localhost:8090/pocopay/v1/account/3 >
+Return 201 OK & New account URI in HTTP heder < http://localhost:8090/pocopay/v1/account/3 >
 
 > Attempt to create Account with duplicate credentials:
 
@@ -44,9 +44,13 @@ Return 409  & Error detail in JSON Format, Moreover, ther is a option to put hel
 
 {
   "requestedUrl": "http://localhost:8090/pocopay/v1/account/",
+  
   "errorCode": 409905,
+  
   "message": "Account already exists with the requested credentials",
+  
   "helpLink": "http://pocopaymin.com/devSupport/409905"
+  
 }
 
 
